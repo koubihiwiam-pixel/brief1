@@ -1,0 +1,18 @@
+
+    /*.hero {
+        background-color: #08111D;
+    }*/
+
+    .boutton {
+        width: 120px;
+        height: 29px;
+        color: #034BFF;
+    }
+    .chiffre {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
