@@ -307,3 +307,109 @@
         display: flex;
         gap: 20px;
     }
+    .evenement{
+        display: flex;
+        gap: 40px;
+        font-family: 'Inter', sans-serif;
+
+    }
+    .evenement div {
+        box-sizing: content-box;
+        width: 100%;
+    }
+    .introduction{
+        border-radius: 16px;
+        padding: 16px 25px;
+        margin: 10px 0px;
+        color: #FFFFFF;
+        background-color: #034BFF;
+    }
+    .btn_intro{
+        color: #034BFF;
+        border-radius: 5px;
+        width: 191px;
+        height: 30px;
+        border:0px;
+    }
+    .cart {
+        border-radius: 6px;
+        border: 1px solid #DDE4F0;
+        margin-top: 10px;
+
+    }
+    .cart img{
+        width: 100%;
+    }
+    .cart button {
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        margin: 5px;
+        border: 1px solid #034BFF;
+        width: 189px;
+        height: 28px;
+    }
+    .cart h4,h6 {
+        padding-left: 10px;
+        
+    }
+    .carrousel{
+        background-color: #04B886;
+        display: flex;
+    }
+    .carrousel img{
+        margin: 10px 25px 0px 25px ;
+        border-radius: 10px;
+        height: 156px;
+        width: 188px;
+    }
+    .carrousel p{
+        font-family: 'Inter', sans-serif;
+        font-size: medium;
+
+    }
+    footer{
+        padding-top: 18px;
+        color: #FFFFFF;
+        background-color: #101211;
+        display: flex;
+        flex-direction: column;
+    }
+    footer .div1{
+        padding-left: 25px;
+        display: flex;
+        gap: 100px;
+    }
+    footer .div2{
+        color: #B2BDB3;
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+        padding-left: 25px;
+        padding-bottom: 20px;
+    }
+    footer h6 {
+        color: #C3F85C;
+    }
+    footer button{
+        background-color: #C3F85C;
+        height: 55px;
+        width: 200px;
+        border-radius: 10px;
+        border: 0px;
+    }
+    footer p{
+        color: #B2BDB3;
+        font-family: 'inter';
+        font-size: 16px;
+    }
+    footer .mention{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        padding-right: 70px;
+
+        
+    }
+
+
+    
