@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dpage campus</title>
+    <title>Page campus</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <img src="assets/logo.png" alt="logo" width="120" height="25">
@@ -19,72 +21,112 @@
         </nav>
         <div>
             <img src="assets/recherche.png" alt="recherche" width="25" height="20">
-            <button class="boutton">Rejoindre<br>l'aventure</button>
+            <a href="inscription.html">
+                 <button class="boutton">Rejoindre<br>l'aventure</button>
+            </a>
+           
         </div>
     </header>
-    <main>
-        <p>TES PREMIERS PAS À YOUCODE</p>
-        <h1>Ton aventure commence par une rencontre</h1>
-        <form>
-            <label for ="lname">Nom :</label><br>
-            <input type="text" id="fname" class="form"><br><br><br>
+    <div id="hero">
+        <p id="titre">TES PREMIERS PAS À YOUCODE</p>
+        <h1>Le premier jour, ça se prépare.</h1>
+        <div class="cartte">
+            <div>
+                <h2>CAMPUS SAFI</h2>
+                <p>Découvre l'expérience YouCode à Safi. Entre projets, entraide et vie étudiante, construis ton
+                    parcours et transforme tes idées en réalisations</p>
+            </div>
+            <div>
+                <h2>CAMPUS YOUSSOUFIA</h2>
+                <p>Vis ton expérience YouCode à Youssoufia : développe tes compétences, partage tes découvertes et
+                    avance aux côtés d'une communauté d'apprenants</p>
+            </div>
+            <div>
+                <h2>CAMPUS NADOR</h2>
+                <p>Découvre l'expérience YouCode à Nador. Entre projets, entraide et vie étudiante, construis ton
+                    parcours et transforme tes idées en réalisations</p>
+            </div>
+        </div>
+    </div>
+    <article>
+        <div>
+                <h5>DES ESPACES PENSÉS POUR TOI</p>
+                <h2>Un lieu pour chaque idée.</h2>
+                <p>Pour te concentrer, créer en équipe ou faire une pause : trouve ton rythme au campus.</p>
+        </div>
+        <div class="cart1">
+            <div>
 
-            <label for ="fname">Prenom :</label><br>
-            <input type="text" id="lname" class="form"><br><br><br>
+                <img src="assets/photo1.jpg">
+                <h5>APPRENDRE & EXPÉRIMENTER</h5>
+                <h3>Salles de formation</h3>
+                <p>Des salles pour explorer de nouvelles notions et les mettre en pratique, projet après projet.</p>
 
-            <label for ="email">email :</label><br>
-            <input type="email" id="email" class="form"><br><br><br>
+            </div>
 
-            <label for ="tel">telephone :</label><br>
-            <input type="tel" id="tele" class="form"><br><br><br>
-
-            <input type="radio" id="safi" class="choix">
-            <label for="safi">Safi</label><br>
-            <input type="radio" id="youssoufia" class="choix">
-            <label for="youssoufia">Youssoufia</label><br>
-            <input type="radio" id="nador" class="choix">
-            <label for="nador">nador</label><br><br>
-            <input type="submit" id="butn" value="S'inscrire">
-
-        </form>
-    </main>
+            <div>
 
 
+                <img src="assets/photo1.jpg">
+                <h5>RÉFLÉCHIR À PLUSIEURS</h5>
+                <h3>Espaces collaboratifs</h3>
+                <p>Une table, des idées et une équipe : tout pour chercher des solutions et avancer ensemble.
+                </p>
 
 
+            </div>
+        </div>
+        <div class="cart2">
+            <div>
 
+                <img src="assets/photo2.jpg">
+                <h5>SOUFFLER & SE RETROUVER</h5>
+                <h3>Coins détente</h3>
+                <p>Une pause entre deux défis, une discussion spontanée et l'énergie pour repartir.</p>
 
+            </div>
+
+            <div>
+
+                <div>
+                    <img src="assets/photo1.jpg">
+                    <h5>MONTRER & PARTAGER</h5>
+                    <h3>Espaces de présentation</h3>
+                    <p>Des lieux pour présenter ton travail, échanger des retours et donner vie à tes idées.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </article>
     <footer>
         <div class="div1">
             <div>
                 <img src="assets/imageLogo.png" alt="logo" width="120" height="30">
-                <p>Une communauté d'apprenants, de projets et d'événements pour te faire grandir.</p>
+                <p>Campus Life — des espaces, des projets et une communauté pour grandir ensemble.</p>
             </div>
             <div>
                 <h6>CAMPUS</h6>
-                <h5>Explorer le campus</h5>
+                <h5>Accueil</h5>
+                <h5>Campus</h5>
                 <h5>Clubs & activités</h5>
+            </div>
+            <div>
+                <h6>SE RETROUVER</h6>
                 <h5>Événements</h5>
-            </div>
-            <div>
-                <h6>RÉSEAUX</h6>
-                <h5>Instagram</h5>
-                <h5>LinkedIn</h5>
-                <h5>Discord</h5>
-            </div>
-            <div>
-                <h6>REJOINDRE L'AVENURE</h6>
-                <button>Explorer le campus ↗</button>
+                <h5>Conseils aux nouveaux</h5>
+                <h5>Contact</h5>
             </div>
         </div>
         <div class="div2">
-            <div>© 2024 YouCode Campus Life. Tous droits réservés.</div>
+            <div>Projet pédagogique fictif</div>
             <div class="mention">
-                <div>Mentions légales</div>
-                <div>Politique de confidentialité</div>
+                Campus Life — YouCode
             </div>
 
         </div>
     </footer>
 </body>
+
 </html>
